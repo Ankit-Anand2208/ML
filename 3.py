@@ -1,7 +1,7 @@
 import csv
 a=[]
 print("/n The Given Training Data Set")
-with open('p2.csv') as csvFile:
+with open('p2_data.csv') as csvFile:
     reader = csv.reader(csvFile)
     for row in reader:
         a.append(row)
